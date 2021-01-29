@@ -9,7 +9,7 @@ long double function(long double x);
 void secant(long double p0, long double p1, long double tol, long double max_iter);
 
 
-//newton's method implementation
+//secant method implementation
 void secant(long double p0, long double p1, long double tol, long double max_iter){
     int i = 1;
     static long double p_0 = p0;
